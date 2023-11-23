@@ -1,5 +1,14 @@
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via Aleksandr Hovhannisyan, aleksandrhovhannisyan@gmail.com, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via .
 title: Amir Rakhimov's homepage
+email: amir.rakhimov.b@gmail.com
 description: Bookmark this to keep an eye on my project updates!
+baseurl: ""
+url: ""
+github-username: amir-rakhimov
 
 # Build settings
 markdown: kramdown
