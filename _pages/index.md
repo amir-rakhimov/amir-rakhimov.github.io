@@ -10,11 +10,11 @@ permalink: /
 
 # Welcome to Amir's website!
 
-[Projects](https://amir-rakhimov.github.io/projects/)
+[Projects](/projects/)
 
-[Publications](https://amir-rakhimov.github.io/publications/)
+[Publications](/publications/)
 
-[Posts](https://amir-rakhimov.github.io/posts/)
+[News](https://amir-rakhimov.github.io/news/)
 
 [About me](https://amir-rakhimov.github.io/about/)
 
