@@ -18,6 +18,17 @@ plugins:
 
 
 # Default layouts 
+# Permalinks to posts use "categories" and "title" variables defined by each post
+
+# categories are tags, title is the post title
+
+# If you use permalink: /posts/:categories/:title/, 
+# Jekyll will reorganise directories: previously, it creates directories for 
+# year, month, day. But now, it uses categories for directory naming
+# first category will be the outermost directory, then inside will be the second category, etc
+
+# But we can also save without tags or even date directories: permalink: /blog/:title/
+
 defaults:
   -
     scope:
@@ -26,6 +37,8 @@ defaults:
     values:
       is_post: true
       layout: post
+      permalink: /posts/:title/
+
   -
     scope:
       type: pages
