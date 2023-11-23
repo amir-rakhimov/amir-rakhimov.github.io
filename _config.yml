@@ -3,6 +3,6 @@ description: Bookmark this to keep an eye on my project updates!
 
 # Build settings
 markdown: kramdown
-theme: minima # replace minima with null
+theme: null # replace minima with null
 plugins:
   - jekyll-feed
