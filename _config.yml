@@ -15,3 +15,24 @@ markdown: kramdown
 theme: null # replace minima with null
 plugins:
   - jekyll-feed
+
+
+# Default layouts 
+defaults:
+  -
+    scope:
+      type: posts
+      path: _posts
+    values:
+      is_post: true
+      layout: post
+  -
+    scope:
+      type: pages
+      path: _pages
+    values:
+      is_post: false
+      layout: default
+
+# Jekyll should recognise _pages folder
+include: [_pages]
