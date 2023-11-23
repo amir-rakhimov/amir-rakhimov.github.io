@@ -4,5 +4,5 @@ title: Publications
 permalink: /publications/
 ---
 
-My sars-cov2 paper is [here](https://facultyopinions.com/article/738725361)
+My sars-cov2 paper is [here](https://onlinelibrary.wiley.com/doi/10.1002/jmv.27062)
 
