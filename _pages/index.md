@@ -14,6 +14,8 @@ permalink: /
 
 [Publications](https://amir-rakhimov.github.io/publications/)
 
+[Posts](https://amir-rakhimov.github.io/posts/)
+
 [About me](https://amir-rakhimov.github.io/about/)
 
 Enjoy!
