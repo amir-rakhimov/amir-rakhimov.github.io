@@ -4,5 +4,5 @@ title: News
 permalink: /news/
 ---
 
-My first post is [here](https://amir-rakhimov.github.io/first/)
+My first post is [here](https://amir-rakhimov.github.io/news/first/)
 
