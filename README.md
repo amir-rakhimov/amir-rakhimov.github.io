@@ -1,2 +1,2 @@
-# amir-rakhimov.github.io
+# Amir Rakhimov
 My website
