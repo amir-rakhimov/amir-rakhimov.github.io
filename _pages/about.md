@@ -9,3 +9,5 @@ Originally, I'm from Kazakhstan. This website is a collection of my projects, pa
 
 ![Image](/images/logo/my-logo.png)
  
+# Contact me
+[Email](mailto:amir.rakhimov.b@gmail.com)
