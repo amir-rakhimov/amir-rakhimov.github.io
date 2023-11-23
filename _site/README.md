@@ -1,2 +1,0 @@
-# Amir Rakhimov
-My website
