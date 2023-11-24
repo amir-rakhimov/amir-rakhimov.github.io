@@ -3,7 +3,7 @@
 # you will see them accessed via Aleksandr Hovhannisyan, aleksandrhovhannisyan@gmail.com, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via .
-title: Amir Rakhimov's homepage
+title: Amir Rakhimov's website
 email: amir.rakhimov.b@gmail.com
 description: Bookmark this to keep an eye on my project updates!
 baseurl: ""
