@@ -23,11 +23,11 @@
        It will show the navigation link on top, and the contents below
     -->
     <div class="navbar">
-        <a href="/" {% if page.title == "Home" %}class="active-page"{% endif %}>Amir Rakhimov</a>
+        <a href="/" {% if page.title == "Home" %}class="active-page"{% endif %}><b>Amir Rakhimov</b></a>
+        <a href="/" {% if page.title == "About" %}class="active-page"{% endif %}>About</a>
         <a href="/projects" {% if page.title == "Projects" %}class="active-page"{% endif %}>Projects</a>
         <a href="/publications" {% if page.title == "Publications" %}class="active-page"{% endif %}>Publications</a>
         <a href="/news" {% if page.title == "News" %}class="active-page"{% endif %}>News</a>
-        <a href="/about" {% if page.title == "About" %}class="active-page"{% endif %}>About</a>
         <a href="/contact" {% if page.title == "Contact" %}class="active-page"{% endif %}>Contact</a>
     </div>
     

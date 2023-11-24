@@ -9,7 +9,13 @@ title: Home
 permalink: /
 ---
 
-# Welcome to Amir's website!
+# Amir Rakhimov
+I am a PhD student from Kazakhstan at the National Institute of Genetics, Japan. I am in the Biological networks laboratory under supervision of Masanori Arita. We collaborate with .
+
+My research focuses on naked mole-rat's and their longevity. I analyse gut microbiome data.
+
+![Image](/images/logo/my-logo.png)
+
 
 Check out my [projects](/projects)
 
@@ -17,7 +23,6 @@ Here is the list of my [publications](/publications) with pdf files
 
 Sometimes, I post [news](/news)
 
-Information [about me](/about)
 
 Feel free to [contact](/contact) me via email 
 

@@ -4,8 +4,11 @@ title: About
 permalink: /about
 ---
 
-My name is Amir Rakhimov. I'm a PhD student at the National Institute of Genetics, Japan.
-Originally, I'm from Kazakhstan. This website is a collection of my projects, papers, and other things.
+# Amir Rakhimov
+I am a PhD student from Kazakhstan at the National Institute of Genetics, Japan. I am in the Biological networks laboratory under supervision of Masanori Arita. We collaborate with .
+
+My research focuses on naked mole-rat's and their longevity. I analys gut microbiome data.
+
 
 ![Image](/images/logo/my-logo.png)
  
