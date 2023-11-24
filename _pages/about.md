@@ -15,11 +15,13 @@ Originally, I'm from Kazakhstan. This website is a collection of my projects, pa
 # Education
 <ol>
     {% for degree in site.data.education %}
-    <li class="degree">{{ degree.name }}, {{ degree.institution }}</li>
+    <li class="degree"><b>{{ degree.name }}</b>, {{ degree.institution }}</li>
     <ul>
         <li class="degree"> {{degree.dates}}</li>
-        <li class="degree"> {{degree.major}}</li>
-        <li class="degree"> {{degree.supervisors}}</li>
+        <li class="degree"> Major: {{degree.major}}</li>
+        <li class="degree"> Thesis title: <i>"{{degree.thesis}}"</i></li>
+        <li class="degree"> Supervisors: {{degree.supervisors}}</li>
+        <li class="degree"> Final grade: {{degree.final_grade}}</li>
     </ul>
     <br>
     {% endfor %}
