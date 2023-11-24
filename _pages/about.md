@@ -11,3 +11,15 @@ Originally, I'm from Kazakhstan. This website is a collection of my projects, pa
  
 # Contact me
 [Email](mailto:amir.rakhimov.b@gmail.com)
+
+# Education
+<ol>
+    {% for degree in site.data.education %}
+    <li class="degree">{{ degree.name }}, {{ degree.institution }}</li>
+    <ul>
+        <li> {{degree.dates}}</li>
+        <li> {{degree.major}}</li>
+        <li> {{degree.supervisors}}</li>
+    </ul>
+    {% endfor %}
+</ol>

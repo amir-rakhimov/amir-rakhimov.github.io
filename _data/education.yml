@@ -1,0 +1,16 @@
+# Once you’ve created a data file in Jekyll,
+# it becomes accessible under site.data.fileName across your entire site, in all HTML and Markdown files. 
+# So, I'll use "for education in site.data.education", and then education.name  
+
+- name: PhD
+  dates: October 2022 - current
+  institution: National Institute of Genetics (Japan)
+  major: Genetics
+  supervisors:  Prof. Masanori Arita
+- name: BSc
+  dates: October 2019 - July 2022
+  institution: The University of Bologna (Italy). Faculty of Pharmacy and Biotechnology
+  major: Genomics
+  thesis: Linking melanoma with autoimmune diseases using disease map approaches
+  supervisors: Prof. Federico M. Giorgi and Prof. Olaf Wolkenhauer
+  final_grade: 110/110 cum laude
