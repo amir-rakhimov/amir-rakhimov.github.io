@@ -49,3 +49,8 @@ defaults:
 
 # Jekyll should recognise _pages folder
 include: [_pages]
+
+#This will eliminate every bit of unnecessary whitespace (like spaces and newlines)
+# in your compiled CSS file while leaving your Sass source styles untouched.
+sass:
+  style: compressed
