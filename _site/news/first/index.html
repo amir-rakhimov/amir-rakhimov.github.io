@@ -3,9 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- each page will have page title followed by site title in the tab name-->
     <title>First post - Amir Rakhimov's website</title>
+    <!--the line below we reference the compiled version (.css) that’s going
+         to live under _site/ once your site is built, not the .scss version that
+          we have access to only in the precompiled source. -->
+    <link rel="stylesheet" type="text/css" href="/assets/styles/main.css">
+
 </head>
 <body>
+    <!-- this is the top navigation bar: Homepage, About, etc.-->
+    <!-- The navigation bar applies a class of active-page selectively, depending on what page we’re currently on.
+    The  <article id="post">
+    <header class="post-header">
+        <h1 class="post-title">First post</h1>
+        <div class="post-date">Nov 23, 2023</div>
+        <ul class="post-categories">
+            
+        </ul>
+    </header>
+    <h1 id="first-post-with-jekyll">First post with jekyll</h1>
+
+<p>Published on 2023-11-23 00:00:00 +0900.</p>
+
+<p>Testing</p>
+
+<pre><code class="language-{r}">x&lt;-1
+x+x
+for(i in 1:10){
+    print i
+}
+if(x&gt;1){
+    print x
+}
+</code></pre>
+
+</article> is a Liquid object. 
+    This is a reserved variable that refers to the literal contents of whatever file Jekyll is currently processing
+     that has its layout set to this layout’s name (i.e. default). So, when Jekyll goes to process _pages/index.md, 
+     encounters the layout variable, and goes to process _layouts/default.html, the content variable will refer to the
+       contents of index.md. 
+       It will show the navigation link on top, and the contents below-->
     <nav>
         <ul class="nav-links">
             <li><a href="/" >Amir Rakhimov</a></li>
@@ -19,7 +57,7 @@
     <main class="page-content">
         <article id="post">
     <header class="post-header">
-        <h1 class="post-title">First post - Amir Rakhimov's website</h1>
+        <h1 class="post-title">First post</h1>
         <div class="post-date">Nov 23, 2023</div>
         <ul class="post-categories">
             
@@ -44,7 +82,15 @@ if(x&gt;1){
 </article>
     </main>
     <footer>
-        Proudly made with Jekyll
+        <!-- Footer will also have some navigation-->
+        <nav>
+            <ul class="nav-links">
+                <li>Amir Rakhimov</li>
+                <li><a href="github.com/amir-rakhimov">Github page</a></li>
+                <li><a href="/contact" >Contact</a></li>
+                <li>Mishima, Shizuoka, Japan</li>
+            </ul>
+        </nav>
     </footer>
 </body>
 </html>
