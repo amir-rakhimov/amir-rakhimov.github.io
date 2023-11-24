@@ -37,7 +37,7 @@ defaults:
     values:
       is_post: true
       layout: post
-      permalink: /news/:title/
+      permalink: /blog/:title/
 
   -
     scope:
