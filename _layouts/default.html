@@ -10,6 +10,7 @@
           we have access to only in the precompiled source. -->
     <link rel="stylesheet" type="text/css" href="/assets/styles/main.css">
 
+<!-- Top navigation bar-->
 </head>
 <body>
     <!-- this is the top navigation bar: Homepage, About, etc.-->
@@ -20,19 +21,19 @@
      encounters the layout variable, and goes to process _layouts/default.html, the content variable will refer to the
        contents of index.md. 
        It will show the navigation link on top, and the contents below-->
-    <nav>
-        <ul class="nav-links">
-            <li><a href="/" {% if page.title == "Home" %}class="active-page"{% endif %}>Amir Rakhimov</a></li>
-            <li><a href="/projects" {% if page.title == "Projects" %}class="active-page"{% endif %}>Projects</a></li>
-            <li><a href="/publications" {% if page.title == "Publications" %}class="active-page"{% endif %}>Publications</a></li>
-            <li><a href="/news" {% if page.title == "News" %}class="active-page"{% endif %}>News</a></li>
-            <li><a href="/about" {% if page.title == "About" %}class="active-page"{% endif %}>About</a></li>
-            <li><a href="/contact" {% if page.title == "Contact" %}class="active-page"{% endif %}>Contact</a></li>
-        </ul>
-    </nav>
+    <div class="navbar">
+        <a href="/" {% if page.title == "Home" %}class="active-page"{% endif %}>Amir Rakhimov</a>
+        <a href="/projects" {% if page.title == "Projects" %}class="active-page"{% endif %}>Projects</a>
+        <a href="/publications" {% if page.title == "Publications" %}class="active-page"{% endif %}>Publications</a>
+        <a href="/news" {% if page.title == "News" %}class="active-page"{% endif %}>News</a>
+        <a href="/about" {% if page.title == "About" %}class="active-page"{% endif %}>About</a>
+        <a href="/contact" {% if page.title == "Contact" %}class="active-page"{% endif %}>Contact</a>
+    </div>
     <main class="page-content">
         {{ content }}
     </main>
+
+<!-- Footer-->
     <footer>
         <!-- Footer will also have some navigation-->
         <nav>
