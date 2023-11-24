@@ -14,59 +14,28 @@
 </head>
 <body>
     <!-- this is the top navigation bar: Homepage, About, etc.-->
-    <!-- The navigation bar applies a class of active-page selectively, depending on what page we’re currently on.
-    The  <p>My name is Amir Rakhimov. I’m a PhD student at the National Institute of Genetics, Japan.
-Originally, I’m from Kazakhstan. This website is a collection of my projects, papers, and other things.</p>
-
-<p><img src="/images/logo/my-logo.png" alt="Image" /></p>
-
-<h1 id="contact-me">Contact me</h1>
-<p><a href="mailto:amir.rakhimov.b@gmail.com">Email</a></p>
-
-<h1 id="education">Education</h1>
-<ol>
-    
-    <li class="degree"><b>PhD</b>, National Institute of Genetics (Japan)</li>
-    <ul>
-        <li class="degree"> October 2022 - current</li>
-        <li class="degree"> Major: Genetics</li>
-        <li class="degree"> Thesis title: <i>""</i></li>
-        <li class="degree"> Supervisors: Prof. Masanori Arita</li>
-        <li class="degree"> Final grade: </li>
-    </ul>
-    <br />
-    
-    <li class="degree"><b>BSc</b>, The University of Bologna (Italy). Faculty of Pharmacy and Biotechnology</li>
-    <ul>
-        <li class="degree"> October 2019 - July 2022</li>
-        <li class="degree"> Major: Genomics</li>
-        <li class="degree"> Thesis title: <i>"Linking melanoma with autoimmune diseases using disease map approaches"</i></li>
-        <li class="degree"> Supervisors: Prof. Federico M. Giorgi and Prof. Olaf Wolkenhauer</li>
-        <li class="degree"> Final grade: 110/110 cum laude</li>
-    </ul>
-    <br />
-    
-</ol>
- is a Liquid object. 
-    This is a reserved variable that refers to the literal contents of whatever file Jekyll is currently processing
-     that has its layout set to this layout’s name (i.e. default). So, when Jekyll goes to process _pages/index.md, 
-     encounters the layout variable, and goes to process _layouts/default.html, the content variable will refer to the
-       contents of index.md. 
-       It will show the navigation link on top, and the contents below
-    -->
+    <!-- The navigation bar applies a class of active-page selectively, depending on what page we’re currently on.-->
+    <!-- The  "content"  is a Liquid object. -->
+    <!-- This is a reserved variable that refers to the literal contents of whatever file Jekyll is currently processing-->
+     <!-- that has its layout set to this layout’s name (i.e. default). So, when Jekyll goes to process _pages/index.md, -->
+     <!-- encounters the layout variable, and goes to process _layouts/default.html, the content variable will refer to the-->
+       <!-- contents of index.md. -->
+       <!-- It will show the navigation link on top, and the contents below-->
     <div class="navbar">
-        <a href="/" >Amir Rakhimov</a>
+        <a href="/" ><b>Amir Rakhimov</b></a>
+        <a href="/" class="active-page">About</a>
         <a href="/projects" >Projects</a>
         <a href="/publications" >Publications</a>
-        <a href="/news" >News</a>
-        <a href="/about" class="active-page">About</a>
+        <a href="/blog" >Blog</a>
         <a href="/contact" >Contact</a>
     </div>
     
 <!--page content is anything--> 
     <main class="page-content">
-        <p>My name is Amir Rakhimov. I’m a PhD student at the National Institute of Genetics, Japan.
-Originally, I’m from Kazakhstan. This website is a collection of my projects, papers, and other things.</p>
+        <h1 id="amir-rakhimov">Amir Rakhimov</h1>
+<p>I am a PhD student from Kazakhstan at the National Institute of Genetics, Japan. I am in the Biological networks laboratory under supervision of Masanori Arita. We collaborate with .</p>
+
+<p>My research focuses on naked mole-rat’s and their longevity. I analys gut microbiome data.</p>
 
 <p><img src="/images/logo/my-logo.png" alt="Image" /></p>
 
@@ -101,12 +70,9 @@ Originally, I’m from Kazakhstan. This website is a collection of my projects, 
     </main>
 
 <!-- Footer-->
-    <div class="footer">
-        <!-- Footer will also have some navigation-->
-        <a>Amir Rakhimov</a>
+        <div class="footer">
         <a href="github.com/amir-rakhimov">Github page</a>
-        <a href="/contact" >Contact</a>
-        <a>Mishima, Shizuoka, Japan</a>
+        <a href>Mishima, Shizuoka, Japan</a>
     </div>
 </body>
 </html>

@@ -14,34 +14,19 @@
 </head>
 <body>
     <!-- this is the top navigation bar: Homepage, About, etc.-->
-    <!-- The navigation bar applies a class of active-page selectively, depending on what page we’re currently on.
-    The  <article id="post">
-    <header class="post-header">
-        <h1 class="post-title">Second post</h1>
-        <div class="post-date">Nov 24, 2023</div>
-        <ul class="post-categories">
-            
-        </ul>
-    </header>
-    <h1 id="second-post-with-jekyll">Second post with jekyll</h1>
-
-<p>Published on 2023-11-24 00:00:00 +0900.</p>
-
-<p>Lorem ipsum</p>
-
-</article> is a Liquid object. 
-    This is a reserved variable that refers to the literal contents of whatever file Jekyll is currently processing
-     that has its layout set to this layout’s name (i.e. default). So, when Jekyll goes to process _pages/index.md, 
-     encounters the layout variable, and goes to process _layouts/default.html, the content variable will refer to the
-       contents of index.md. 
-       It will show the navigation link on top, and the contents below
-    -->
+    <!-- The navigation bar applies a class of active-page selectively, depending on what page we’re currently on.-->
+    <!-- The  "content"  is a Liquid object. -->
+    <!-- This is a reserved variable that refers to the literal contents of whatever file Jekyll is currently processing-->
+     <!-- that has its layout set to this layout’s name (i.e. default). So, when Jekyll goes to process _pages/index.md, -->
+     <!-- encounters the layout variable, and goes to process _layouts/default.html, the content variable will refer to the-->
+       <!-- contents of index.md. -->
+       <!-- It will show the navigation link on top, and the contents below-->
     <div class="navbar">
-        <a href="/" >Amir Rakhimov</a>
+        <a href="/" ><b>Amir Rakhimov</b></a>
+        <a href="/" >About</a>
         <a href="/projects" >Projects</a>
         <a href="/publications" >Publications</a>
-        <a href="/news" >News</a>
-        <a href="/about" >About</a>
+        <a href="/blog" >Blog</a>
         <a href="/contact" >Contact</a>
     </div>
     
@@ -65,12 +50,9 @@
     </main>
 
 <!-- Footer-->
-    <div class="footer">
-        <!-- Footer will also have some navigation-->
-        <a>Amir Rakhimov</a>
+        <div class="footer">
         <a href="github.com/amir-rakhimov">Github page</a>
-        <a href="/contact" >Contact</a>
-        <a>Mishima, Shizuoka, Japan</a>
+        <a href>Mishima, Shizuoka, Japan</a>
     </div>
 </body>
 </html>
