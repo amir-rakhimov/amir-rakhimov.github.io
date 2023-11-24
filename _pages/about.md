@@ -17,9 +17,10 @@ Originally, I'm from Kazakhstan. This website is a collection of my projects, pa
     {% for degree in site.data.education %}
     <li class="degree">{{ degree.name }}, {{ degree.institution }}</li>
     <ul>
-        <li> {{degree.dates}}</li>
-        <li> {{degree.major}}</li>
-        <li> {{degree.supervisors}}</li>
+        <li class="degree"> {{degree.dates}}</li>
+        <li class="degree"> {{degree.major}}</li>
+        <li class="degree"> {{degree.supervisors}}</li>
     </ul>
+    <br>
     {% endfor %}
 </ol>
