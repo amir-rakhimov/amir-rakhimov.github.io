@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- each page will have page title followed by site title in the tab name-->
-    <title>About - Amir Rakhimov's website</title>
+    <title>About | Amir Rakhimov's website</title>
     <!--the line below we reference the compiled version (.css) that’s going
          to live under _site/ once your site is built, not the .scss version that
           we have access to only in the precompiled source. -->
     <link rel="stylesheet" type="text/css" href="/assets/styles/main.css">
 
+<!-- Top navigation bar-->
 </head>
 <body>
     <!-- this is the top navigation bar: Homepage, About, etc.-->
@@ -21,22 +22,39 @@ Originally, I’m from Kazakhstan. This website is a collection of my projects, 
 
 <h1 id="contact-me">Contact me</h1>
 <p><a href="mailto:amir.rakhimov.b@gmail.com">Email</a></p>
+
+<h1 id="education">Education</h1>
+<ol>
+    
+    <li class="degree">PhD, National Institute of Genetics (Japan)</li>
+    <ul>
+        <li> October 2022 - current</li>
+        <li> Genetics</li>
+        <li> Prof. Masanori Arita</li>
+    </ul>
+    
+    <li class="degree">BSc, The University of Bologna (Italy). Faculty of Pharmacy and Biotechnology</li>
+    <ul>
+        <li> October 2019 - July 2022</li>
+        <li> Genomics</li>
+        <li> Prof. Federico M. Giorgi and Prof. Olaf Wolkenhauer</li>
+    </ul>
+    
+</ol>
  is a Liquid object. 
     This is a reserved variable that refers to the literal contents of whatever file Jekyll is currently processing
      that has its layout set to this layout’s name (i.e. default). So, when Jekyll goes to process _pages/index.md, 
      encounters the layout variable, and goes to process _layouts/default.html, the content variable will refer to the
        contents of index.md. 
        It will show the navigation link on top, and the contents below-->
-    <nav>
-        <ul class="nav-links">
-            <li><a href="/" >Amir Rakhimov</a></li>
-            <li><a href="/projects" >Projects</a></li>
-            <li><a href="/publications" >Publications</a></li>
-            <li><a href="/news" >News</a></li>
-            <li><a href="/about" class="active-page">About</a></li>
-            <li><a href="/contact" >Contact</a></li>
-        </ul>
-    </nav>
+    <div class="navbar">
+        <a href="/" >Amir Rakhimov</a>
+        <a href="/projects" >Projects</a>
+        <a href="/publications" >Publications</a>
+        <a href="/news" >News</a>
+        <a href="/about" class="active-page">About</a>
+        <a href="/contact" >Contact</a>
+    </div>
     <main class="page-content">
         <p>My name is Amir Rakhimov. I’m a PhD student at the National Institute of Genetics, Japan.
 Originally, I’m from Kazakhstan. This website is a collection of my projects, papers, and other things.</p>
@@ -46,7 +64,28 @@ Originally, I’m from Kazakhstan. This website is a collection of my projects, 
 <h1 id="contact-me">Contact me</h1>
 <p><a href="mailto:amir.rakhimov.b@gmail.com">Email</a></p>
 
+<h1 id="education">Education</h1>
+<ol>
+    
+    <li class="degree">PhD, National Institute of Genetics (Japan)</li>
+    <ul>
+        <li> October 2022 - current</li>
+        <li> Genetics</li>
+        <li> Prof. Masanori Arita</li>
+    </ul>
+    
+    <li class="degree">BSc, The University of Bologna (Italy). Faculty of Pharmacy and Biotechnology</li>
+    <ul>
+        <li> October 2019 - July 2022</li>
+        <li> Genomics</li>
+        <li> Prof. Federico M. Giorgi and Prof. Olaf Wolkenhauer</li>
+    </ul>
+    
+</ol>
+
     </main>
+
+<!-- Footer-->
     <footer>
         <!-- Footer will also have some navigation-->
         <nav>

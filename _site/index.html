@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- each page will have page title followed by site title in the tab name-->
-    <title>Home - Amir Rakhimov's website</title>
+    <title>Home | Amir Rakhimov's website</title>
     <!--the line below we reference the compiled version (.css) that’s going
          to live under _site/ once your site is built, not the .scss version that
           we have access to only in the precompiled source. -->
     <link rel="stylesheet" type="text/css" href="/assets/styles/main.css">
 
+<!-- Top navigation bar-->
 </head>
 <body>
     <!-- this is the top navigation bar: Homepage, About, etc.-->
@@ -33,16 +34,14 @@
      encounters the layout variable, and goes to process _layouts/default.html, the content variable will refer to the
        contents of index.md. 
        It will show the navigation link on top, and the contents below-->
-    <nav>
-        <ul class="nav-links">
-            <li><a href="/" class="active-page">Amir Rakhimov</a></li>
-            <li><a href="/projects" >Projects</a></li>
-            <li><a href="/publications" >Publications</a></li>
-            <li><a href="/news" >News</a></li>
-            <li><a href="/about" >About</a></li>
-            <li><a href="/contact" >Contact</a></li>
-        </ul>
-    </nav>
+    <div class="navbar">
+        <a href="/" class="active-page">Amir Rakhimov</a>
+        <a href="/projects" >Projects</a>
+        <a href="/publications" >Publications</a>
+        <a href="/news" >News</a>
+        <a href="/about" >About</a>
+        <a href="/contact" >Contact</a>
+    </div>
     <main class="page-content">
         <h1 id="welcome-to-amirs-website">Welcome to Amir’s website!</h1>
 
@@ -59,6 +58,8 @@
 <p>Enjoy!</p>
 
     </main>
+
+<!-- Footer-->
     <footer>
         <!-- Footer will also have some navigation-->
         <nav>

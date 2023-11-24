@@ -1,11 +1,26 @@
-/* The navigation bar */
-.navbar {
-/*    position: fixed; /* Set the navbar to fixed position */
-    bottom: 0; /* Position the navbar at the bottom of the page */
-    width: 100%; /* Full width */
+/* The footer */
+.footer {
+    bottom:0;
+    background-color: #d1d1d1;
+    height: 50px;
+    text-align: center;
+}
+
+  /* Links inside the footer */
+  .footer a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Arial;
   }
   
-  /* Main content */
-  .main {
-    margin-bottom: 30px; /* Add a bottom margin to avoid content overlay */
-  }
+/*.navbar a:hover {  /* when you hover your mouse on the bar*/
+    /*background-color: #000000;
+/*    color: rgb(255, 255, 255);
+/*}
+*/
+
