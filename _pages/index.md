@@ -11,14 +11,14 @@ permalink: /
 
 # Welcome to Amir's website!
 
-[Projects](/projects)
+Check out my [projects](/projects)
 
-[Publications](/publications)
+Here is the list of my [publications](/publications) with pdf files
 
-[News](/news)
+Sometimes, I post [news](/news)
 
-[About me](/about)
+Information [about me](/about)
 
-[Contact](/contact)
+Feel free to [contact](/contact) me via email 
 
 Enjoy!
