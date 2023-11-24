@@ -2,8 +2,9 @@
 .footer {
     bottom:0;
     background-color: #d1d1d1;
-    height: 50px;
+    min-height: 50px;
     text-align: center;
+    border-bottom: 2px solid #9b9b9b;
 }
 
   /* Links inside the footer */
