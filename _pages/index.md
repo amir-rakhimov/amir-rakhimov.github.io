@@ -4,18 +4,21 @@
 
 # permalink redirects you to that link. So, here the permalink will redirect to the 
 # home page (main page that is displayed when you open the website)
-layout: home
+layout: default
+title: Home
 permalink: /
 ---
 
 # Welcome to Amir's website!
 
-[Projects](/projects/)
+[Projects](/projects)
 
-[Publications](/publications/)
+[Publications](/publications)
 
-[News](https://amir-rakhimov.github.io/news/)
+[News](/news)
 
-[About me](https://amir-rakhimov.github.io/about/)
+[About me](/about)
+
+[Contact](/contact)
 
 Enjoy!

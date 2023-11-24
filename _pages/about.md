@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: default
 title: About
-permalink: /about/
+permalink: /about
 ---
 
 My name is Amir Rakhimov. I'm a PhD student at the National Institute of Genetics, Japan.
