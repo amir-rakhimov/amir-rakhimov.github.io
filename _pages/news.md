@@ -1,12 +1,12 @@
 ---
 layout: default
-title: News
-permalink: /news
+title: Blog
+permalink: /blog
 ---
 
-# My news
+# My blog
 
-My first post is [here](/news/first)
+My first post is [here](/blog/first)
 
 <ul>
   {% for post in site.posts %}

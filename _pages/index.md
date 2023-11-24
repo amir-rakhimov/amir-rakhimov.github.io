@@ -21,7 +21,7 @@ Check out my [projects](/projects)
 
 Here is the list of my [publications](/publications) with pdf files
 
-Sometimes, I post [news](/news)
+Sometimes, I post [blog](/blog)
 
 
 Feel free to [contact](/contact) me via email 
