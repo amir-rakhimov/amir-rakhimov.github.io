@@ -199,6 +199,7 @@ kramdown:
       start_line: 1
 
 # Includes & excludes
+# Exclude _pages/dropdown.md, profiles, teaching
 include: ["_pages"]
 exclude:
   - bin/
@@ -217,6 +218,9 @@ exclude:
   - package-lock.json
   - _pages/en-us/about_einstein.md
   - _pages/pt-br/about_einstein.md
+  - _pages/dropdown.md
+  - _pages/profiles.md
+  - _pages/teaching.md
   - purgecss.config.js
   - README.md
   - readme_preview/
