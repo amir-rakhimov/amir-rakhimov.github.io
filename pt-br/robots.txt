@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://amir-rakhimov.github.io/sitemap.xml
