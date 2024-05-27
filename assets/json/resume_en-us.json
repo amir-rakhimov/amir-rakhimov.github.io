@@ -30,8 +30,8 @@
       "startDate": "2022-03",
       "endDate": "2022-05",
       "summary": ["Project: Linking melanoma with autoimmune diseases using disease map approaches."],
-      "highlights": ["Supervisor: Olaf Wolkenhauer.","Built disease maps in CellDesigner",
-      "Disseminated disease maps on the MINERVA platform", "Analysed microarray data in Bioconductor"]
+      "highlights": ["Supervisor: Olaf Wolkenhauer.",["Built disease maps in CellDesigner",
+      "Disseminated disease maps on the MINERVA platform", "Analysed microarray data in Bioconductor"]]
     }
   ],
   "volunteer": [
