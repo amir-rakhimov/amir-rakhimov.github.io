@@ -1,36 +1,37 @@
 {
   "basics": {
-    "name": "Albert Einstein",
+    "name": "Amir Rakhimov",
     "label": "Scientist",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://george-gca.github.io/multi-language-al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "rakhimov@nig.ac.jp",
+    "phone": "",
+    "url": "https://amir-rakhimov.github.io/",
+    "summary": "A PhD student from Kazakhstan at the National Institute of Genetics",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "",
+      "postalCode": "",
+      "city": "Mishima",
+      "countryCode": "JP",
+      "region": "Shizuoka"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "X",
+        "username": "amir_rakhimovv",
+        "url": "https://twitter.com/amir_rakhimovv"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "The University of Rostock, Germany",
+      "position": "Internship trainee",
+      "url": "",
+      "startDate": "2022-03",
+      "endDate": "2022-05",
+      "summary": ["Project: Linking melanoma with autoimmune diseases using disease map approaches."],
+      "highlights": ["Supervisor: Olaf Wolkenhauer.","Built disease maps in CellDesigner",
+      "Disseminated disease maps on the MINERVA platform", "Analysed microarray data in Bioconductor"]
     }
   ],
   "volunteer": [

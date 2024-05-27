@@ -2,18 +2,18 @@
   type: map
   contents:
     - name: Full Name
-      value: Amir Rakhimov
+      value: Albert Einstein
     - name: Date of Birth
-      value: 24 January 2001
+      value: 14th March 1879
     - name: Languages
-      value: English, Russian, Kazakh, Italian, Japanese
+      value: English, German
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: Graduate Institute for Advanced Studies, SOKENDAI, Japan
-      year: 2022-2027
+      institution: University of Zurich, Zurich, Switzerland
+      year: 1905
       description:
         - Description 1.
         - Description 2.
@@ -21,9 +21,9 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: BSc
-      institution: The University of Bologna, Italy
-      year: 2019-2022
+    - title: Federal teaching diploma
+      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
+      year: 1900
       description:
         - Description 1.
         - Description 2.
