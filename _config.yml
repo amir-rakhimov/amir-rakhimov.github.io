@@ -124,8 +124,9 @@ permalink: /blog/:year/:title/
 lsi: true # produce an index for related posts
 
 # Pagination
+# enabled: true if you want to keep it, or false if remove entirely
 pagination:
-  enabled: true
+  enabled: false
   title: ":title - pagination.page :num"
 
 related_blog_posts:
