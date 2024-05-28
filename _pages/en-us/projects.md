@@ -1,11 +1,11 @@
 ---
 page_id: projects
 layout: page
-title: projects
-permalink: /projects/
+title: research
+permalink: /research/
 description: My projects at the National Institute of Genetics
 nav: true
-nav_order: 3
+nav_order: 2
 display_categories: [work, fun]
 horizontal: false
 ---
