@@ -16,7 +16,6 @@ news: false # includes a list of news items
 latest_posts: false # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
-blog: false
 ---
 
 I am a PhD student from Kazakhstan at the National Institute of Genetics, Japan. I am in the Biological networks laboratory under supervision of Masanori Arita. We collaborate with Kyoko Miura's lab at Kumamoto University.
