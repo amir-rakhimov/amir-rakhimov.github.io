@@ -55,7 +55,6 @@ cv:
   startDate: Start date
   studyType: Study type
   summary: Summary
-  supervisor: Supervisor
   table_of_contents: Table of Contents
   title: Title
   url: Url
