@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I temporarily moved to Miura lab at Kumamoto university to learn cell culture methods
+I joined Miura lab at Kumamoto university to learn more about naked mole-rats
