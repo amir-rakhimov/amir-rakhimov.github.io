@@ -4,7 +4,7 @@ layout: default
 permalink: /blog/
 title: blog
 blog_name: Blog
-description: Some analysis pipelines I use
+description: Updates on my life and research
 nav: true
 nav_order: 1
 pagination:
