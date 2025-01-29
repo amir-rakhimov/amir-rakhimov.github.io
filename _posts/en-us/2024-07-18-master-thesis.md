@@ -1,7 +1,7 @@
 ---
 layout: post
 title: I defended my master thesis
-date: 2023-11-18
+date: 2024-07-18
 description: Master thesis defense
 tags: japan research
 categories: 
