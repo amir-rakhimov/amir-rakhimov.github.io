@@ -7,20 +7,14 @@
     "phone": "",
     "url": "",
     "summary": "A PhD student from Kazakhstan at the National Institute of Genetics",
-    "location": {
-      "address": "",
-      "postalCode": "",
-      "city": "Mishima",
-      "countryCode": "JP",
-      "region": "Shizuoka"
-    },
     "profiles": [
       {
         "network": "X",
         "username": "amir_rakhimovv",
         "url": "https://twitter.com/amir_rakhimovv"
       }
-    ]
+    ],
+    "languages":["English","Russian (native)","Japanese","Kazakh","Italian"]
   },
   "work": [
     {
