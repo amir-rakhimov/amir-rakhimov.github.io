@@ -1,7 +1,7 @@
 ---
 page_id: about
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href='#'>PhD student at the National Institute of Genetics.
 

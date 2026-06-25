@@ -2,7 +2,7 @@
 page_id: blog
 layout: default
 permalink: /blog/
-title: blog
+title: Blog
 blog_name: Blog
 description: Updates on my life and research
 nav: true

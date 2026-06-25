@@ -1,9 +1,9 @@
 ---
 page_id: projects
 layout: page
-title: research
+title: Research
 permalink: /research/
-description: My research projects at the National Institute of Genetics
+description: My research projects
 nav: true
 nav_order: 2
 display_categories: [work, fun]
