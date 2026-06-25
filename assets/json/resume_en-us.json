@@ -14,7 +14,7 @@
         "url": "https://twitter.com/amir_rakhimovv"
       }
     ],
-    "languages":["English  Russian (native)  Japanese  Kazakh  Italian"]
+    "languages":["English, Russian (native), Japanese, Kazakh, Italian"]
   },
   "work": [
     {
@@ -26,6 +26,17 @@
       "summary": ["Project: Linking melanoma with autoimmune diseases using disease map approaches (Supervisor: Olaf Wolkenhauer)."],
       "highlights": ["Built disease maps in CellDesigner and deployed them on the MINERVA platform",
       "Analysed microarray data in Bioconductor"]
+      
+    },
+    {
+      "name": "Kumamoto University",
+      "position": "Visiting researcher",
+      "url": "",
+      "startDate": "2024-05",
+      "endDate": "2025-12",
+      "summary": ["Project: Naked mole-rat genome project (Supervisor: Kyoko Miura)."],
+      "highlights": ["qPCR",
+      "RT-qPCR"]
       
     }
   ],
@@ -43,9 +54,9 @@
       "institution": "Graduate Institute for Advanced Studies, SOKENDAI (Japan)",
       "location": "Mishima, Japan",
       "url": "https://www.nig.ac.jp/nig/",
-      "area": "Genetics",
+      "area": "Genetics Course",
       "studyType": "PhD",
-      "startDate": "2022",
+      "startDate": "2022-10",
       "endDate": "2027-09"
     }
   ]
